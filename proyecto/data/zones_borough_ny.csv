@@ -1,0 +1,264 @@
+id,objectid,zone,locationid,borough
+nyu_2451_36743.1,"1",Newark Airport,"1",EWR
+nyu_2451_36743.2,"2",Jamaica Bay,"2",Queens
+nyu_2451_36743.3,"3",Allerton/Pelham Gardens,"3",Bronx
+nyu_2451_36743.4,"4",Alphabet City,"4",Manhattan
+nyu_2451_36743.5,"5",Arden Heights,"5",Staten Island
+nyu_2451_36743.6,"6",Arrochar/Fort Wadsworth,"6",Staten Island
+nyu_2451_36743.7,"7",Astoria,"7",Queens
+nyu_2451_36743.8,"8",Astoria Park,"8",Queens
+nyu_2451_36743.9,"9",Auburndale,"9",Queens
+nyu_2451_36743.24,"24",Bloomingdale,"24",Manhattan
+nyu_2451_36743.10,"10",Baisley Park,"10",Queens
+nyu_2451_36743.11,"11",Bath Beach,"11",Brooklyn
+nyu_2451_36743.12,"12",Battery Park,"12",Manhattan
+nyu_2451_36743.13,"13",Battery Park City,"13",Manhattan
+nyu_2451_36743.18,"18",Bedford Park,"18",Bronx
+nyu_2451_36743.25,"25",Boerum Hill,"25",Brooklyn
+nyu_2451_36743.14,"14",Bay Ridge,"14",Brooklyn
+nyu_2451_36743.15,"15",Bay Terrace/Fort Totten,"15",Queens
+nyu_2451_36743.22,"22",Bensonhurst West,"22",Brooklyn
+nyu_2451_36743.23,"23",Bloomfield/Emerson Hill,"23",Staten Island
+nyu_2451_36743.16,"16",Bayside,"16",Queens
+nyu_2451_36743.17,"17",Bedford,"17",Brooklyn
+nyu_2451_36743.19,"19",Bellerose,"19",Queens
+nyu_2451_36743.20,"20",Belmont,"20",Bronx
+nyu_2451_36743.21,"21",Bensonhurst East,"21",Brooklyn
+nyu_2451_36743.26,"26",Borough Park,"26",Brooklyn
+nyu_2451_36743.27,"27",Breezy Point/Fort Tilden/Riis Beach,"27",Queens
+nyu_2451_36743.28,"28",Briarwood/Jamaica Hills,"28",Queens
+nyu_2451_36743.33,"33",Brooklyn Heights,"33",Brooklyn
+nyu_2451_36743.29,"29",Brighton Beach,"29",Brooklyn
+nyu_2451_36743.31,"31",Bronx Park,"31",Bronx
+nyu_2451_36743.32,"32",Bronxdale,"32",Bronx
+nyu_2451_36743.30,"30",Broad Channel,"30",Queens
+nyu_2451_36743.34,"34",Brooklyn Navy Yard,"34",Brooklyn
+nyu_2451_36743.35,"35",Brownsville,"35",Brooklyn
+nyu_2451_36743.189,"189",Prospect Heights,"189",Brooklyn
+nyu_2451_36743.36,"36",Bushwick North,"36",Brooklyn
+nyu_2451_36743.37,"37",Bushwick South,"37",Brooklyn
+nyu_2451_36743.38,"38",Cambria Heights,"38",Queens
+nyu_2451_36743.39,"39",Canarsie,"39",Brooklyn
+nyu_2451_36743.40,"40",Carroll Gardens,"40",Brooklyn
+nyu_2451_36743.41,"41",Central Harlem,"41",Manhattan
+nyu_2451_36743.45,"45",Chinatown,"45",Manhattan
+nyu_2451_36743.46,"46",City Island,"46",Bronx
+nyu_2451_36743.42,"42",Central Harlem North,"42",Manhattan
+nyu_2451_36743.43,"43",Central Park,"43",Manhattan
+nyu_2451_36743.44,"44",Charleston/Tottenville,"44",Staten Island
+nyu_2451_36743.47,"47",Claremont/Bathgate,"47",Bronx
+nyu_2451_36743.48,"48",Clinton East,"48",Manhattan
+nyu_2451_36743.49,"49",Clinton Hill,"49",Brooklyn
+nyu_2451_36743.50,"50",Clinton West,"50",Manhattan
+nyu_2451_36743.51,"51",Co-Op City,"51",Bronx
+nyu_2451_36743.52,"52",Cobble Hill,"52",Brooklyn
+nyu_2451_36743.53,"53",College Point,"53",Queens
+nyu_2451_36743.54,"54",Columbia Street,"54",Brooklyn
+nyu_2451_36743.55,"55",Coney Island,"55",Brooklyn
+nyu_2451_36743.56,"56",Corona,"56",Queens
+nyu_2451_36743.57,"57",Corona,"56",Queens
+nyu_2451_36743.58,"58",Country Club,"58",Bronx
+nyu_2451_36743.59,"59",Crotona Park,"59",Bronx
+nyu_2451_36743.60,"60",Crotona Park East,"60",Bronx
+nyu_2451_36743.61,"61",Crown Heights North,"61",Brooklyn
+nyu_2451_36743.62,"62",Crown Heights South,"62",Brooklyn
+nyu_2451_36743.217,"217",South Williamsburg,"217",Brooklyn
+nyu_2451_36743.63,"63",Cypress Hills,"63",Brooklyn
+nyu_2451_36743.64,"64",Douglaston,"64",Queens
+nyu_2451_36743.65,"65",Downtown Brooklyn/MetroTech,"65",Brooklyn
+nyu_2451_36743.72,"72",East Flatbush/Remsen Village,"72",Brooklyn
+nyu_2451_36743.66,"66",DUMBO/Vinegar Hill,"66",Brooklyn
+nyu_2451_36743.67,"67",Dyker Heights,"67",Brooklyn
+nyu_2451_36743.68,"68",East Chelsea,"68",Manhattan
+nyu_2451_36743.73,"73",East Flushing,"73",Queens
+nyu_2451_36743.69,"69",East Concourse/Concourse Village,"69",Bronx
+nyu_2451_36743.70,"70",East Elmhurst,"70",Queens
+nyu_2451_36743.71,"71",East Flatbush/Farragut,"71",Brooklyn
+nyu_2451_36743.79,"79",East Village,"79",Manhattan
+nyu_2451_36743.80,"80",East Williamsburg,"80",Brooklyn
+nyu_2451_36743.74,"74",East Harlem North,"74",Manhattan
+nyu_2451_36743.85,"85",Erasmus,"85",Brooklyn
+nyu_2451_36743.86,"86",Far Rockaway,"86",Queens
+nyu_2451_36743.75,"75",East Harlem South,"75",Manhattan
+nyu_2451_36743.76,"76",East New York,"76",Brooklyn
+nyu_2451_36743.77,"77",East New York/Pennsylvania Avenue,"77",Brooklyn
+nyu_2451_36743.78,"78",East Tremont,"78",Bronx
+nyu_2451_36743.81,"81",Eastchester,"81",Bronx
+nyu_2451_36743.87,"87",Financial District North,"87",Manhattan
+nyu_2451_36743.82,"82",Elmhurst,"82",Queens
+nyu_2451_36743.83,"83",Elmhurst/Maspeth,"83",Queens
+nyu_2451_36743.84,"84",Eltingville/Annadale/Prince's Bay,"84",Staten Island
+nyu_2451_36743.88,"88",Financial District South,"88",Manhattan
+nyu_2451_36743.89,"89",Flatbush/Ditmas Park,"89",Brooklyn
+nyu_2451_36743.90,"90",Flatiron,"90",Manhattan
+nyu_2451_36743.91,"91",Flatlands,"91",Brooklyn
+nyu_2451_36743.92,"92",Flushing,"92",Queens
+nyu_2451_36743.93,"93",Flushing Meadows-Corona Park,"93",Queens
+nyu_2451_36743.94,"94",Fordham South,"94",Bronx
+nyu_2451_36743.95,"95",Forest Hills,"95",Queens
+nyu_2451_36743.96,"96",Forest Park/Highland Park,"96",Queens
+nyu_2451_36743.97,"97",Fort Greene,"97",Brooklyn
+nyu_2451_36743.98,"98",Fresh Meadows,"98",Queens
+nyu_2451_36743.99,"99",Freshkills Park,"99",Staten Island
+nyu_2451_36743.100,"100",Garment District,"100",Manhattan
+nyu_2451_36743.101,"101",Glen Oaks,"101",Queens
+nyu_2451_36743.102,"102",Glendale,"102",Queens
+nyu_2451_36743.103,"103",Governor's Island/Ellis Island/Liberty Island,"103",Manhattan
+nyu_2451_36743.104,"104",Governor's Island/Ellis Island/Liberty Island,"103",Manhattan
+nyu_2451_36743.105,"105",Governor's Island/Ellis Island/Liberty Island,"103",Manhattan
+nyu_2451_36743.106,"106",Gowanus,"106",Brooklyn
+nyu_2451_36743.107,"107",Gramercy,"107",Manhattan
+nyu_2451_36743.108,"108",Gravesend,"108",Brooklyn
+nyu_2451_36743.109,"109",Great Kills,"109",Staten Island
+nyu_2451_36743.110,"110",Great Kills Park,"110",Staten Island
+nyu_2451_36743.111,"111",Green-Wood Cemetery,"111",Brooklyn
+nyu_2451_36743.112,"112",Greenpoint,"112",Brooklyn
+nyu_2451_36743.113,"113",Greenwich Village North,"113",Manhattan
+nyu_2451_36743.114,"114",Greenwich Village South,"114",Manhattan
+nyu_2451_36743.115,"115",Grymes Hill/Clifton,"115",Staten Island
+nyu_2451_36743.116,"116",Hamilton Heights,"116",Manhattan
+nyu_2451_36743.117,"117",Hammels/Arverne,"117",Queens
+nyu_2451_36743.118,"118",Heartland Village/Todt Hill,"118",Staten Island
+nyu_2451_36743.119,"119",Highbridge,"119",Bronx
+nyu_2451_36743.120,"120",Highbridge Park,"120",Manhattan
+nyu_2451_36743.149,"149",Madison,"149",Brooklyn
+nyu_2451_36743.150,"150",Manhattan Beach,"150",Brooklyn
+nyu_2451_36743.121,"121",Hillcrest/Pomonok,"121",Queens
+nyu_2451_36743.122,"122",Hollis,"122",Queens
+nyu_2451_36743.123,"123",Homecrest,"123",Brooklyn
+nyu_2451_36743.124,"124",Howard Beach,"124",Queens
+nyu_2451_36743.125,"125",Hudson Sq,"125",Manhattan
+nyu_2451_36743.126,"126",Hunts Point,"126",Bronx
+nyu_2451_36743.127,"127",Inwood,"127",Manhattan
+nyu_2451_36743.128,"128",Inwood Hill Park,"128",Manhattan
+nyu_2451_36743.129,"129",Jackson Heights,"129",Queens
+nyu_2451_36743.134,"134",Kew Gardens,"134",Queens
+nyu_2451_36743.151,"151",Manhattan Valley,"151",Manhattan
+nyu_2451_36743.130,"130",Jamaica,"130",Queens
+nyu_2451_36743.139,"139",Laurelton,"139",Queens
+nyu_2451_36743.131,"131",Jamaica Estates,"131",Queens
+nyu_2451_36743.132,"132",JFK Airport,"132",Queens
+nyu_2451_36743.133,"133",Kensington,"133",Brooklyn
+nyu_2451_36743.140,"140",Lenox Hill East,"140",Manhattan
+nyu_2451_36743.135,"135",Kew Gardens Hills,"135",Queens
+nyu_2451_36743.136,"136",Kingsbridge Heights,"136",Bronx
+nyu_2451_36743.137,"137",Kips Bay,"137",Manhattan
+nyu_2451_36743.141,"141",Lenox Hill West,"141",Manhattan
+nyu_2451_36743.142,"142",Lincoln Square East,"142",Manhattan
+nyu_2451_36743.152,"152",Manhattanville,"152",Manhattan
+nyu_2451_36743.138,"138",LaGuardia Airport,"138",Queens
+nyu_2451_36743.143,"143",Lincoln Square West,"143",Manhattan
+nyu_2451_36743.144,"144",Little Italy/NoLiTa,"144",Manhattan
+nyu_2451_36743.145,"145",Long Island City/Hunters Point,"145",Queens
+nyu_2451_36743.146,"146",Long Island City/Queens Plaza,"146",Queens
+nyu_2451_36743.147,"147",Longwood,"147",Bronx
+nyu_2451_36743.148,"148",Lower East Side,"148",Manhattan
+nyu_2451_36743.153,"153",Marble Hill,"153",Manhattan
+nyu_2451_36743.154,"154",Marine Park/Floyd Bennett Field,"154",Brooklyn
+nyu_2451_36743.155,"155",Marine Park/Mill Basin,"155",Brooklyn
+nyu_2451_36743.156,"156",Mariners Harbor,"156",Staten Island
+nyu_2451_36743.159,"159",Melrose South,"159",Bronx
+nyu_2451_36743.157,"157",Maspeth,"157",Queens
+nyu_2451_36743.158,"158",Meatpacking/West Village West,"158",Manhattan
+nyu_2451_36743.160,"160",Middle Village,"160",Queens
+nyu_2451_36743.161,"161",Midtown Center,"161",Manhattan
+nyu_2451_36743.162,"162",Midtown East,"162",Manhattan
+nyu_2451_36743.163,"163",Midtown North,"163",Manhattan
+nyu_2451_36743.164,"164",Midtown South,"164",Manhattan
+nyu_2451_36743.165,"165",Midwood,"165",Brooklyn
+nyu_2451_36743.166,"166",Morningside Heights,"166",Manhattan
+nyu_2451_36743.167,"167",Morrisania/Melrose,"167",Bronx
+nyu_2451_36743.170,"170",Murray Hill,"170",Manhattan
+nyu_2451_36743.171,"171",Murray Hill-Queens,"171",Queens
+nyu_2451_36743.168,"168",Mott Haven/Port Morris,"168",Bronx
+nyu_2451_36743.169,"169",Mount Hope,"169",Bronx
+nyu_2451_36743.172,"172",New Dorp/Midland Beach,"172",Staten Island
+nyu_2451_36743.173,"173",North Corona,"173",Queens
+nyu_2451_36743.174,"174",Norwood,"174",Bronx
+nyu_2451_36743.178,"178",Ocean Parkway South,"178",Brooklyn
+nyu_2451_36743.175,"175",Oakland Gardens,"175",Queens
+nyu_2451_36743.179,"179",Old Astoria,"179",Queens
+nyu_2451_36743.180,"180",Ozone Park,"180",Queens
+nyu_2451_36743.176,"176",Oakwood,"176",Staten Island
+nyu_2451_36743.177,"177",Ocean Hill,"177",Brooklyn
+nyu_2451_36743.181,"181",Park Slope,"181",Brooklyn
+nyu_2451_36743.182,"182",Parkchester,"182",Bronx
+nyu_2451_36743.183,"183",Pelham Bay,"183",Bronx
+nyu_2451_36743.184,"184",Pelham Bay Park,"184",Bronx
+nyu_2451_36743.185,"185",Pelham Parkway,"185",Bronx
+nyu_2451_36743.186,"186",Penn Station/Madison Sq West,"186",Manhattan
+nyu_2451_36743.187,"187",Port Richmond,"187",Staten Island
+nyu_2451_36743.188,"188",Prospect-Lefferts Gardens,"188",Brooklyn
+nyu_2451_36743.190,"190",Prospect Park,"190",Brooklyn
+nyu_2451_36743.191,"191",Queens Village,"191",Queens
+nyu_2451_36743.209,"209",Seaport,"209",Manhattan
+nyu_2451_36743.192,"192",Queensboro Hill,"192",Queens
+nyu_2451_36743.193,"193",Queensbridge/Ravenswood,"193",Queens
+nyu_2451_36743.196,"196",Rego Park,"196",Queens
+nyu_2451_36743.210,"210",Sheepshead Bay,"210",Brooklyn
+nyu_2451_36743.194,"194",Randalls Island,"194",Manhattan
+nyu_2451_36743.197,"197",Richmond Hill,"197",Queens
+nyu_2451_36743.211,"211",SoHo,"211",Manhattan
+nyu_2451_36743.195,"195",Red Hook,"195",Brooklyn
+nyu_2451_36743.203,"203",Rosedale,"203",Queens
+nyu_2451_36743.198,"198",Ridgewood,"198",Queens
+nyu_2451_36743.199,"199",Rikers Island,"199",Bronx
+nyu_2451_36743.200,"200",Riverdale/North Riverdale/Fieldston,"200",Bronx
+nyu_2451_36743.208,"208",Schuylerville/Edgewater Park,"208",Bronx
+nyu_2451_36743.201,"201",Rockaway Park,"201",Queens
+nyu_2451_36743.202,"202",Roosevelt Island,"202",Manhattan
+nyu_2451_36743.204,"204",Rossville/Woodrow,"204",Staten Island
+nyu_2451_36743.205,"205",Saint Albans,"205",Queens
+nyu_2451_36743.206,"206",Saint George/New Brighton,"206",Staten Island
+nyu_2451_36743.207,"207",Saint Michaels Cemetery/Woodside,"207",Queens
+nyu_2451_36743.212,"212",Soundview/Bruckner,"212",Bronx
+nyu_2451_36743.213,"213",Soundview/Castle Hill,"213",Bronx
+nyu_2451_36743.215,"215",South Jamaica,"215",Queens
+nyu_2451_36743.216,"216",South Ozone Park,"216",Queens
+nyu_2451_36743.214,"214",South Beach/Dongan Hills,"214",Staten Island
+nyu_2451_36743.218,"218",Springfield Gardens North,"218",Queens
+nyu_2451_36743.219,"219",Springfield Gardens South,"219",Queens
+nyu_2451_36743.224,"224",Stuy Town/Peter Cooper Village,"224",Manhattan
+nyu_2451_36743.220,"220",Spuyten Duyvil/Kingsbridge,"220",Bronx
+nyu_2451_36743.225,"225",Stuyvesant Heights,"225",Brooklyn
+nyu_2451_36743.226,"226",Sunnyside,"226",Queens
+nyu_2451_36743.221,"221",Stapleton,"221",Staten Island
+nyu_2451_36743.222,"222",Starrett City,"222",Brooklyn
+nyu_2451_36743.223,"223",Steinway,"223",Queens
+nyu_2451_36743.227,"227",Sunset Park East,"227",Brooklyn
+nyu_2451_36743.228,"228",Sunset Park West,"228",Brooklyn
+nyu_2451_36743.229,"229",Sutton Place/Turtle Bay North,"229",Manhattan
+nyu_2451_36743.230,"230",Times Sq/Theatre District,"230",Manhattan
+nyu_2451_36743.231,"231",TriBeCa/Civic Center,"231",Manhattan
+nyu_2451_36743.232,"232",Two Bridges/Seward Park,"232",Manhattan
+nyu_2451_36743.233,"233",UN/Turtle Bay South,"233",Manhattan
+nyu_2451_36743.234,"234",Union Sq,"234",Manhattan
+nyu_2451_36743.235,"235",University Heights/Morris Heights,"235",Bronx
+nyu_2451_36743.236,"236",Upper East Side North,"236",Manhattan
+nyu_2451_36743.237,"237",Upper East Side South,"237",Manhattan
+nyu_2451_36743.238,"238",Upper West Side North,"238",Manhattan
+nyu_2451_36743.239,"239",Upper West Side South,"239",Manhattan
+nyu_2451_36743.240,"240",Van Cortlandt Park,"240",Bronx
+nyu_2451_36743.241,"241",Van Cortlandt Village,"241",Bronx
+nyu_2451_36743.242,"242",Van Nest/Morris Park,"242",Bronx
+nyu_2451_36743.245,"245",West Brighton,"245",Staten Island
+nyu_2451_36743.243,"243",Washington Heights North,"243",Manhattan
+nyu_2451_36743.253,"253",Willets Point,"253",Queens
+nyu_2451_36743.244,"244",Washington Heights South,"244",Manhattan
+nyu_2451_36743.257,"257",Windsor Terrace,"257",Brooklyn
+nyu_2451_36743.246,"246",West Chelsea/Hudson Yards,"246",Manhattan
+nyu_2451_36743.258,"258",Woodhaven,"258",Queens
+nyu_2451_36743.247,"247",West Concourse,"247",Bronx
+nyu_2451_36743.248,"248",West Farms/Bronx River,"248",Bronx
+nyu_2451_36743.249,"249",West Village,"249",Manhattan
+nyu_2451_36743.263,"263",Yorkville West,"263",Manhattan
+nyu_2451_36743.250,"250",Westchester Village/Unionport,"250",Bronx
+nyu_2451_36743.251,"251",Westerleigh,"251",Staten Island
+nyu_2451_36743.252,"252",Whitestone,"252",Queens
+nyu_2451_36743.254,"254",Williamsbridge/Olinville,"254",Bronx
+nyu_2451_36743.255,"255",Williamsburg (North Side),"255",Brooklyn
+nyu_2451_36743.256,"256",Williamsburg (South Side),"256",Brooklyn
+nyu_2451_36743.259,"259",Woodlawn/Wakefield,"259",Bronx
+nyu_2451_36743.260,"260",Woodside,"260",Queens
+nyu_2451_36743.261,"261",World Trade Center,"261",Manhattan
+nyu_2451_36743.262,"262",Yorkville East,"262",Manhattan
