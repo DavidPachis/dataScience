@@ -1,4 +1,5 @@
 # Notebooks proyecto
+Se enuncia el contenido
 ```
 - **2Entrega_TaxisNYC_CDA.ipynb Contiene el **EDA** para la segunda entrega (incluidos en TaxisNYC_CDA_SegudaEntrega.ipyn)**
 ```
