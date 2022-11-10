@@ -1,6 +1,6 @@
 # Taller 3
 
-Foobar is a Python library for dealing with word pluralization.
+Taller 3 CDA David Vasquez y Fabian Ramirez
 
 ## carpeta de datos
 
