@@ -1,0 +1,9 @@
+pregnancies: indicates the number of pregnancies
+glucose: indicates the plasma glucose concentration
+blood_pressure: indicates diastolic blood pressure in mm/Hg
+skin_thickness: indicates triceps skinfold thickness in mm
+insulin: indicates insulin in U/mL
+bmi: indicates the body mass index in kg/m2
+diabetes_pedigree_fn: indicates the function which scores likelihood of diabetes based on family history
+age: indicates the age of the women
+diabetes: indicates if the patient had diabetes or not (1 = yes, 0 = no)
