@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import requests
 import wget
 import joblib
 
@@ -9,8 +10,9 @@ st.text_input("Enter your Name: ", key="name")
 data = pd.read_csv("https://raw.githubusercontent.com/DavidPachis/dataScience/main/proyecto/data/nueva_entrada.csv")
 
 # load model
-url2 = 'https://github.com/DavidPachis/dataScience/raw/main/proyecto/models/model_Cap.pkl'
-model = wget.download(url2)
+URL = 'https://github.com/DavidPachis/dataScience/raw/main/proyecto/models/model_Cap.pkl'
+response = requests.get(URL)
+open("model_Cap.pkl", "wb").write(response.content)
 best_xgboost_model = joblib.load('model_Cap.pkl')
 
 if st.checkbox('Show Training Dataframe'):
