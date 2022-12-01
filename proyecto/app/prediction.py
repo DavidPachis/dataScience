@@ -8,7 +8,7 @@ data = pd.read_csv("https://raw.githubusercontent.com/DavidPachis/dataScience/ma
 # load model
 url2 = 'https://github.com/DavidPachis/dataScience/raw/main/proyecto/models/model_Cap.pkl'
 model = wget.download(url2)
-own_model = joblib.load(model)
+own_model = joblib.load('model_Cap.pkl')
 best_xgboost_model = own_model
 
 prediction = best_xgboost_model.predict(data)
