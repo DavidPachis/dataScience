@@ -11,7 +11,7 @@ data = pd.read_csv("https://raw.githubusercontent.com/DavidPachis/dataScience/ma
 # load model
 url2 = 'https://github.com/DavidPachis/dataScience/raw/main/proyecto/models/model_Cap.pkl'
 model = wget.download(url2)
-best_xgboost_model = joblib.load("model_Cap.pkl")
+best_xgboost_model = joblib.load(model)
 
 if st.checkbox('Show Training Dataframe'):
     data
