@@ -4,7 +4,7 @@ import numpy as np
 import requests
 import joblib
 
-st.header("Fish Weight Prediction App")
+st.header("Taxi Fare Prediction")
 st.text_input("Enter your Name: ", key="name")
 data = pd.read_csv("https://raw.githubusercontent.com/DavidPachis/dataScience/main/proyecto/data/nueva_entrada.csv")
 
