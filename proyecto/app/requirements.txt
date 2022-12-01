@@ -2,5 +2,5 @@ streamlit==1.14.0
 pandas==1.5.1
 wget==3.2
 joblib==1.2.0
-Keras==2.4.3
+Keras==2.11.0
 tensorflow==2.11.0
