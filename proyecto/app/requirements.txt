@@ -11,4 +11,4 @@ wget==3.2
 joblib==1.2.0
 Keras==2.4.3
 tensorflow==2.5.0
-tensorflow-estimator==2.3.0
+
