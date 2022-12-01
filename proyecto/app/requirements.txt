@@ -10,3 +10,4 @@ hyperopt==0.2.7
 wget==3.2
 joblib==1.2.0
 Keras==2.4.3
+TensorFlow==2.2 
