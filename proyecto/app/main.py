@@ -21,6 +21,6 @@ if st.button('Make Prediction'):
     inputs = data
     prediction = best_xgboost_model.predict(inputs)
     print("final pred", np.squeeze(prediction, -1))
-    st.write(f"Your fare: {np.squeeze(prediction, -1):.2f}g")
+    st.write(f"Your fare: {np.array2string(np.squeeze(prediction, -1):.2f)}g")
 
     st.write(f"Thank you {st.session_state.name}! I hope you liked it.")
