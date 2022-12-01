@@ -3,4 +3,4 @@ pandas==1.5.1
 wget==3.2
 joblib==1.2.0
 Keras==2.4.3
-tensorflow==2.5.0
+tensorflow==2.2.0
