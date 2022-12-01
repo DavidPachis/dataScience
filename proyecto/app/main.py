@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests
-import wget
 import joblib
 
 st.header("Fish Weight Prediction App")
