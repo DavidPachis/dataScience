@@ -1,5 +1,5 @@
 import joblib
-
+import requests
 
 # load model
 URL = 'https://github.com/DavidPachis/dataScience/raw/main/proyecto/models/model_Cap.pkl'
