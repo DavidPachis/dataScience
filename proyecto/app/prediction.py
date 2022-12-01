@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import joblib
-
+import requests
 
 data = pd.read_csv("https://raw.githubusercontent.com/DavidPachis/dataScience/main/proyecto/data/nueva_entrada.csv")
 URL = 'https://github.com/DavidPachis/dataScience/raw/main/proyecto/models/model_Cap.pkl'
