@@ -29,6 +29,7 @@ response = requests.get(url)
 open("my_model.pkl", "wb").write(response.content)
 best_model = joblib.load("my_model.pkl")
 
+
 def load_pred():
     uploaded_file = st.file_uploader(label='upload dataset for training')
     # data_pred = pd.read_json('https://raw.githubusercontent.com/DavidPachis/dataScience/main/taller4/data'
@@ -172,21 +173,21 @@ if st.checkbox('check for use second model'):
 
             print(classification_report(Y_test, predictions_v1))
             a = classification_report(Y_test, predictions_v1)
-            df_a = pd.DataFrame(a).transpose()
+            df_a = pd.DataFrame(a)
+            st.dataframe(df_a)
             print(roc_auc_score(Y_test, best_model.predict_proba(X_test)[:, 1]))
             b = roc_auc_score(Y_test, best_model.predict_proba(X_test)[:, 1])
-            df_b = pd.DataFrame(b).transpose()
-            st.dataframe(df_b)
             st.write(f"Your original roc_auc_score: {b}")
+
             # segundo modelo
+
             predictions_v2 = model_2.predict(X_test)
 
             print(classification_report(Y_test, predictions_v2))
             c = classification_report(Y_test, predictions_v2)
-            df_c = pd.DataFrame(c).transpose()
+            df_c = pd.DataFrame(c)
             st.dataframe(df_c)
             print(roc_auc_score(Y_test, model_2.predict_proba(X_test)[:, 1]))
             d = roc_auc_score(Y_test, model_2.predict_proba(X_test)[:, 1])
             # df_d = pd.DataFrame(d).transpose()
             st.write(f"Your new roc_auc_score: {d}")
-
