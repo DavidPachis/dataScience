@@ -25,15 +25,6 @@ data_train_1 = pd.read_json(
 st.title('Taller 4, churn Rate')
 
 
-def load_data():
-    uploaded_file = st.file_uploader(label='upload dataset for training')
-    # data_train = pd.read_json(
-    #   'https://raw.githubusercontent.com/DavidPachis/dataScience/main/taller4/data/DataSet_Entrenamiento_v2.json')
-    if uploaded_file is not None:
-        data_train = uploaded_file.getvalue()
-        return data_train
-
-
 def load_pred():
     uploaded_file = st.file_uploader(label='upload dataset for training')
     # data_pred = pd.read_json('https://raw.githubusercontent.com/DavidPachis/dataScience/main/taller4/data'
@@ -156,11 +147,24 @@ if st.checkbox('check for use first model'):
         final_d = st.dataframe(prediction)
         st.write(f"Your churn results: {final_d}")
 
-if st.button('Make Prediction with new model'):
-    data_2_train = load_data()
-    # data_2_train = cleaning(data_2_train)
-    model_2 = reentrenamiento(data_2_train, data_train_1)
-    prediction2 = get_final_pred_mv0(data_pre, model_2)
-    # print("final prediction", np.squeeze(prediction2, -1))
-    final_d2 = pd.DataFrame.to_string(prediction2)
-    st.write(f"Your churns: {final_d2}")
+if st.checkbox('check for use second model'):
+    uploaded_file = st.file_uploader(label='upload dataset for training')
+    final_d = ''
+    if uploaded_file is not None:
+        data_2_train = pd.read_json(uploaded_file.getvalue())
+        model_2 = reentrenamiento(data_2_train, data_train_1)
+        uploaded_file = st.file_uploader(label='upload dataset for predictions')
+        if uploaded_file is not None:
+            pred = pd.read_json(uploaded_file.getvalue())
+            prediction2 = get_final_pred_mv0(pred, model_2)
+            print("final prediction", prediction2)
+            final_d = st.dataframe(prediction2)
+            st.write(f"Your churn results: {final_d}")
+
+# if st.button('Make Prediction with new model'):
+
+# model_2 = reentrenamiento(data_2_train, data_train_1)
+# prediction2 = get_final_pred_mv0(data_pre, model_2)
+# print("final prediction", np.squeeze(prediction2, -1))
+# final_d2 = pd.DataFrame.to_string(prediction2)
+# st.write(f"Your churns: {final_d2}")
