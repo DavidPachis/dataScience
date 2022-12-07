@@ -25,13 +25,13 @@ if st.checkbox('check for use first model'):
     response = requests.get(url)
     open("my_model.pkl", "wb").write(response.content)
     best_model = joblib.load("my_model.pkl")
-    if st.button('Make Prediction'):
-        inputs = data_pre
-        prediction = best_model.predict(inputs)
-        print("final prediction", np.squeeze(prediction, -1))
-        final_d = np.array2string(prediction)
-        st.write(f"Your fares: {final_d}g")
-    load_data()
+if st.button('Make Prediction'):
+    inputs = data_pre
+    prediction = best_model.predict(inputs)
+    print("final prediction", np.squeeze(prediction, -1))
+    final_d = np.array2string(prediction)
+    st.write(f"Your churn: {final_d}g")
+load_data()
 
 if st.button('Make Prediction with new model'):
     inputs = data_pre
@@ -39,4 +39,3 @@ if st.button('Make Prediction with new model'):
     print("final prediction", np.squeeze(prediction, -1))
     final_d = np.array2string(prediction)
     st.write(f"Your fares: {final_d}g")
-load_data()
