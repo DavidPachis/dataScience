@@ -9,6 +9,8 @@ data_train = pd.read_json(
 data_pre = pd.read_json('https://raw.githubusercontent.com/DavidPachis/dataScience/main/taller4/data'
                         '/DataSet_Prediccion.json')
 
+st.title('Taller 4, churn Rate')
+
 
 def load_data():
     uploaded_file = st.file_uploader(label='upload dataset for training')
@@ -31,11 +33,4 @@ if st.button('Make Prediction'):
     final_d = np.array2string(prediction)
     st.write(f"Your fares: {final_d}g")
 
-
-def main():
-    st.title('Taller 4, churn Rate')
-    load_data()
-
-
-if __name__ == '__main__':
-    main()
+load_data()
