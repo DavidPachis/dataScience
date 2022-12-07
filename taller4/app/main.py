@@ -172,8 +172,8 @@ if st.checkbox('check for use second model'):
             predictions_v1 = best_model.predict(X_test)
 
             print(classification_report(Y_test, predictions_v1))
-            a = classification_report(Y_test, predictions_v1)
-            df_a = pd.DataFrame(a)
+            a = classification_report(Y_test, predictions_v1, output_dict=True)
+            df_a = pd.DataFrame(a).transpose()
             st.dataframe(df_a)
             print(roc_auc_score(Y_test, best_model.predict_proba(X_test)[:, 1]))
             b = roc_auc_score(Y_test, best_model.predict_proba(X_test)[:, 1])
@@ -184,8 +184,8 @@ if st.checkbox('check for use second model'):
             predictions_v2 = model_2.predict(X_test)
 
             print(classification_report(Y_test, predictions_v2))
-            c = classification_report(Y_test, predictions_v2)
-            df_c = pd.DataFrame(c)
+            c = classification_report(Y_test, predictions_v2, output_dict=True)
+            df_c = pd.DataFrame(c).transpose()
             st.dataframe(df_c)
             print(roc_auc_score(Y_test, model_2.predict_proba(X_test)[:, 1]))
             d = roc_auc_score(Y_test, model_2.predict_proba(X_test)[:, 1])
