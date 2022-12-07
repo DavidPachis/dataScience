@@ -31,7 +31,9 @@ def load_data():
     #   'https://raw.githubusercontent.com/DavidPachis/dataScience/main/taller4/data/DataSet_Entrenamiento_v2.json')
     if uploaded_file is not None:
         data_train = uploaded_file.getvalue()
-    return data_train
+        return data_train
+    else:
+        return 'upload data'
 
 
 def load_pred():
@@ -40,7 +42,7 @@ def load_pred():
     # '/DataSet_Prediccion.json')
     if uploaded_file is not None:
         data_pred = uploaded_file.getvalue()
-    return data_pred
+        return data_pred
 
 
 def cleaning(dataset):
