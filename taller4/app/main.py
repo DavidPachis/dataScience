@@ -153,7 +153,7 @@ if st.checkbox('check for use first model'):
         data_predi = pd.read_json(uploaded_file.getvalue())
         prediction = get_final_pred_mv0(data_predi, best_model)
         print("final prediction", prediction)
-        final_d = prediction
+        final_d = st.dataframe(prediction)
         st.write(f"Your churn results: {final_d}")
 
 if st.button('Make Prediction with new model'):
