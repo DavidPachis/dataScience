@@ -46,6 +46,31 @@ def cleaning(dataset):
     return clean_dataset
 
 
+def cleaning_1(dataset):
+    # se limpia la columna TotalChares que tiene problemas con valores 0
+    dataset.loc[dataset["tenure"] == 0, "TotalCharges"] = "0"
+    dataset['TotalCharges'].astype(float)
+    # se asocian por tipo las columnas
+    numericas = dataset[["MonthlyCharges", "tenure", "SeniorCitizen", "TotalCharges"]]
+    gender = dataset["gender"]
+    categoricas_1 = dataset[['Partner', 'PhoneService', 'PaperlessBilling', 'Dependents']]
+    categoricas_2 = dataset[[
+        "InternetService", "OnlineSecurity", "OnlineBackup", "DeviceProtection", "TechSupport",
+        "StreamingTV", "StreamingMovies", "Contract", "PaymentMethod"
+    ]]
+    excluidas = dataset[["customerID", "MultipleLines"]]
+
+    # se hace la transformación
+    gender = gender.replace(['Female', 'Male'], [0, 1])
+    categoricas_1 = categoricas_1.replace(['No', 'Yes'], [0, 1])
+    categoricas_2 = pd.get_dummies(categoricas_2)
+    numericas = numericas.astype(float)
+
+    # se construye todo el dataset limpio de nuevo
+    clean_dataset = pd.DataFrame().join([gender, categoricas_1, categoricas_2, numericas], how="outer")
+    return clean_dataset
+
+
 if st.checkbox('check for use first model'):
     # load model
     url = 'https://github.com/DavidPachis/dataScience/raw/main/taller4/model/my_model.pkl'
@@ -54,8 +79,7 @@ if st.checkbox('check for use first model'):
     best_model = joblib.load("my_model.pkl")
 
 if st.button('Make Prediction'):
-
-    inputs = cleaning(data_pre)
+    inputs = cleaning_1(data_pre)
 
     prediction = best_model.predict(inputs)
     print("final prediction", np.squeeze(prediction, -1))
