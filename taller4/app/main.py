@@ -95,7 +95,7 @@ if st.checkbox('check for use first model'):
 if st.button('Make Prediction'):
     prediction = get_final_pred_mv0(data_pre,best_model)
     print("final prediction", np.squeeze(prediction))
-    final_d = np.array2string(prediction)
+    final_d = pd.DataFrame.to_string(prediction)
     st.write(f"Your churn: {final_d}")
 load_data()
 
