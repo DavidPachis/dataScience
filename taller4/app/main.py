@@ -24,6 +24,10 @@ data_train_1 = pd.read_json(
 
 st.title('Taller 4, churn Rate')
 
+url = 'https://github.com/DavidPachis/dataScience/raw/main/taller4/model/my_model.pkl'
+response = requests.get(url)
+open("my_model.pkl", "wb").write(response.content)
+best_model = joblib.load("my_model.pkl")
 
 def load_pred():
     uploaded_file = st.file_uploader(label='upload dataset for training')
@@ -134,10 +138,6 @@ def reentrenamiento(df1, df2):
 
 if st.checkbox('check for use first model'):
     # load model
-    url = 'https://github.com/DavidPachis/dataScience/raw/main/taller4/model/my_model.pkl'
-    response = requests.get(url)
-    open("my_model.pkl", "wb").write(response.content)
-    best_model = joblib.load("my_model.pkl")
     uploaded_file = st.file_uploader(label='upload dataset for prediction')
     final_d = ''
     if uploaded_file is not None:
