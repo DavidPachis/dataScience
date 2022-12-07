@@ -18,3 +18,5 @@ contiene los archivos para correr el api
 https://davidpachis-datascience-taller4appmain-6dcdx7.streamlit.app/
 
 ## link youtube
+
+https://www.youtube.com/watch?v=OnqxWw5Uc4o
