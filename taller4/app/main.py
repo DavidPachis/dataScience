@@ -154,7 +154,6 @@ if st.checkbox('check for use first model'):
         prediction = get_final_pred_mv0(data_predi, best_model)
         print("final prediction", prediction)
         final_d = prediction
-    if st.button('Make Prediction'):
         st.write(f"Your churn results: {final_d}")
 
 if st.button('Make Prediction with new model'):
