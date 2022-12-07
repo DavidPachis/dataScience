@@ -141,7 +141,6 @@ def reentrenamiento(df1, df2):
 
 
 if st.checkbox('check for use first model'):
-    load_data()
     # load model
     url = 'https://github.com/DavidPachis/dataScience/raw/main/taller4/model/my_model.pkl'
     response = requests.get(url)
