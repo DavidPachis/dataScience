@@ -11,7 +11,7 @@ contiene los archivos necesarios para correr el modelo
 Contiene los cuadernos donde se desarrollaron los algoritmos
 
 ## carpeta app 
-contiene los archivos para correr el api 
+contiene los archivos para correr el api, alli se puede ver el codigo ompleto del despligue
 
 ## Link despliegue
 
