@@ -145,7 +145,7 @@ if st.checkbox('check for use first model'):
         prediction = get_final_pred_mv0(data_predi, best_model)
         print("final prediction", prediction)
         final_d = st.dataframe(prediction)
-        st.write(f"Your churn results: {final_d}")
+        # st.write(f"Your churn results: {final_d}")
 
 if st.checkbox('check for use second model'):
     uploaded_file = st.file_uploader(label='upload dataset for training')
@@ -159,7 +159,7 @@ if st.checkbox('check for use second model'):
             prediction2 = get_final_pred_mv0(pred, model_2)
             print("final prediction", prediction2)
             final_d = st.dataframe(prediction2)
-            st.write(f"Your churn results: {final_d}")
+            # st.write(f"Your churn results: {final_d}")
 
 # if st.button('Make Prediction with new model'):
 
