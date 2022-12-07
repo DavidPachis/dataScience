@@ -80,9 +80,8 @@ if st.checkbox('check for use first model'):
 
 if st.button('Make Prediction'):
     inputs = cleaning_1(data_pre)
-
     prediction = best_model.predict(inputs)
-    print("final prediction", np.squeeze(prediction, -1))
+    print("final prediction", np.squeeze(prediction))
     final_d = np.array2string(prediction)
     st.write(f"Your churn: {final_d}g")
 load_data()
