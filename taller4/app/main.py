@@ -32,8 +32,6 @@ def load_data():
     if uploaded_file is not None:
         data_train = uploaded_file.getvalue()
         return data_train
-    else:
-        return 'upload data'
 
 
 def load_pred():
@@ -150,11 +148,13 @@ if st.checkbox('check for use first model'):
     open("my_model.pkl", "wb").write(response.content)
     best_model = joblib.load("my_model.pkl")
     if st.button('Make Prediction'):
-        data_predi = load_pred()
-        prediction = get_final_pred_mv0(data_predi, best_model)
-        # print("final prediction", np.squeeze(prediction))
-        final_d = st.table(prediction)
-        st.write(f"Your churn: {final_d}")
+        uploaded_file = st.file_uploader(label='upload dataset for prediction')
+        if uploaded_file is not None:
+            data_predi = uploaded_file.getvalue()
+            prediction = get_final_pred_mv0(data_predi, best_model)
+            # print("final prediction", np.squeeze(prediction))
+            final_d = st.table(prediction)
+            st.write(f"Your churn: {final_d}")
 
 if st.button('Make Prediction with new model'):
     data_2_train = load_data()
