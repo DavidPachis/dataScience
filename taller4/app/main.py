@@ -71,6 +71,20 @@ def cleaning_1(dataset):
     return clean_dataset
 
 
+def get_final_pred_mv0(dataset,model):
+
+    # se limpia para que pueda ser ingerido por el modelo
+    clean_df3 = cleaning_1(dataset)
+
+    # se hace la predicción con el primer modelo
+    df_predicted = pd.DataFrame(model.predict(clean_df3)).replace([0, 1],['No', 'Yes'])
+    df_precited_proba = pd.DataFrame(model.predict_proba(clean_df3)[:, 1])
+    df_predicted["proba"] = df_precited_proba
+    df_predicted.columns =['Churn', 'Proba']
+
+    return df_predicted
+
+
 if st.checkbox('check for use first model'):
     # load model
     url = 'https://github.com/DavidPachis/dataScience/raw/main/taller4/model/my_model.pkl'
@@ -79,11 +93,10 @@ if st.checkbox('check for use first model'):
     best_model = joblib.load("my_model.pkl")
 
 if st.button('Make Prediction'):
-    inputs = cleaning_1(data_pre)
-    prediction = best_model.predict(inputs)
+    prediction = get_final_pred_mv0(data_pre,best_model)
     print("final prediction", np.squeeze(prediction))
     final_d = np.array2string(prediction)
-    st.write(f"Your churn: {final_d}g")
+    st.write(f"Your churn: {final_d}")
 load_data()
 
 if st.button('Make Prediction with new model'):
